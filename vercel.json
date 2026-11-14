@@ -1,6 +1,5 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false,
   "redirects": [
     {
       "source": "/index.html",
@@ -11,6 +10,55 @@
       "source": "/index",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/:folder(.*-Page)/:file(.*-index)",
+      "destination": "/:folder",
+      "permanent": true
+    },
+    {
+      "source": "/:folder(.*-Page)/:file(.*-index.html)",
+      "destination": "/:folder",
+      "permanent": true
     }
+  ],
+  "rewrites": [
+    { "source": "/Work-Page", "destination": "/Work-Page/work-index.html" },
+    { "source": "/About-Page", "destination": "/About-Page/about-index.html" },
+    { "source": "/Ceritificate-Page", "destination": "/Ceritificate-Page/certificate-index.html" },
+    { "source": "/Almahyra-Page", "destination": "/Almahyra-Page/almahyra-index.html" },
+    { "source": "/ArsanaBaswara-Page", "destination": "/ArsanaBaswara-Page/arsanabaswara-index.html" },
+    { "source": "/Ayodya-Page", "destination": "/Ayodya-Page/ayodya-index.html" },
+    { "source": "/Cataleya-Page", "destination": "/Cataleya-Page/cataleya-index.html" },
+    { "source": "/Dgellatku-Page", "destination": "/Dgellatku-Page/dgellatku-index.html" },
+    { "source": "/Pko-Page", "destination": "/Pko-Page/pkoposters-index.html" },
+    { "source": "/Posters-Page", "destination": "/Posters-Page/posters-index.html" },
+    { "source": "/SuaRona-Page", "destination": "/SuaRona-Page/suarona-index.html" },
+    { "source": "/TheDjamoe-Page", "destination": "/TheDjamoe-Page/thedjamoe-index.html" },
+
+    { "source": "/work-style.css", "destination": "/Work-Page/work-style.css" },
+    { "source": "/work-script.js", "destination": "/Work-Page/work-script.js" },
+    { "source": "/about-style.css", "destination": "/About-Page/about-style.css" },
+    { "source": "/about-script.js", "destination": "/About-Page/about-script.js" },
+    { "source": "/certificate-style.css", "destination": "/Ceritificate-Page/certificate-style.css" },
+    { "source": "/certificate-script.js", "destination": "/Ceritificate-Page/certificate-script.js" },
+    { "source": "/almahyra-style.css", "destination": "/Almahyra-Page/almahyra-style.css" },
+    { "source": "/almahyra-script.js", "destination": "/Almahyra-Page/almahyra-script.js" },
+    { "source": "/arsanabaswara-style.css", "destination": "/ArsanaBaswara-Page/arsanabaswara-style.css" },
+    { "source": "/arsanabaswara-script.js", "destination": "/ArsanaBaswara-Page/arsanabaswara-script.js" },
+    { "source": "/ayodya-style.css", "destination": "/Ayodya-Page/ayodya-style.css" },
+    { "source": "/ayodya-script.js", "destination": "/Ayodya-Page/ayodya-script.js" },
+    { "source": "/cataleya-style.css", "destination": "/Cataleya-Page/cataleya-style.css" },
+    { "source": "/cataleya-script.js", "destination": "/Cataleya-Page/cataleya-script.js" },
+    { "source": "/dgellatku-style.css", "destination": "/Dgellatku-Page/dgellatku-style.css" },
+    { "source": "/dgellatku-script.js", "destination": "/Dgellatku-Page/dgellatku-script.js" },
+    { "source": "/pkoposters-style.css", "destination": "/Pko-Page/pkoposters-style.css" },
+    { "source": "/pkoposters-script.js", "destination": "/Pko-Page/pkoposters-script.js" },
+    { "source": "/posters-style.css", "destination": "/Posters-Page/posters-style.css" },
+    { "source": "/posters-script.js", "destination": "/Posters-Page/posters-script.js" },
+    { "source": "/suarona-style.css", "destination": "/SuaRona-Page/suarona-style.css" },
+    { "source": "/suarona-script.js", "destination": "/SuaRona-Page/suarona-script.js" },
+    { "source": "/thedjamoe-style.css", "destination": "/TheDjamoe-Page/thedjamoe-style.css" },
+    { "source": "/thedjamoe-script.js", "destination": "/TheDjamoe-Page/thedjamoe-script.js" }
   ]
 }
