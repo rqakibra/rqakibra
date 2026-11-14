@@ -149,49 +149,49 @@ document.addEventListener('DOMContentLoaded', () => {
             title: "Ayodya Real Estate Developer",
             desc: "Visual Identity, Logo",
             img: "../Image/Project2/3.jpg",
-            link: "../Ayodya-Page/index.html"
+            link: "../Ayodya-Page/ayodya-index.html"
         },
         {
             title: "Sua Rona:2",
             desc: "Visual Identity, Logo, Advertising",
             img: "../Image/Project3/4.jpg",
-            link: "../SuaRona-Page/index.html"
+            link: "../SuaRona-Page/suarona-index.html"
         },
         {
             title: "Almahyra Collection",
             desc: "Visual Identity, Logo, Photography, Advertising",
             img: "../Image/Project4/5.jpg",
-            link: "../Almahyra-Page/index.html"
+            link: "../Almahyra-Page/almahyra-index.html"
         },
         {
             title: "Arsana Baswara Parlement",
             desc: "Visual Identity, Logo",
             img: "../Image/Project5/4.jpg",
-            link: "../ArsanaBaswara-Page/index.html"
+            link: "../ArsanaBaswara-Page/arsanabaswara-index.html"
         },
         {
             title: "The Djamoe",
             desc: "Visual Identity, Logo, Photography, Advertising, Social Media",
             img: "../Image/Project6/5.jpg",
-            link: "../TheDjamoe-Page/index.html"
+            link: "../TheDjamoe-Page/thedjamoe-index.html"
         },
         {
             title: "Cataleya Kitchen",
             desc: "Visual Identity, Logo",
             img: "../Image/Project7/5.jpg",
-            link: "../Cataleya-Page/index.html"
+            link: "../Cataleya-Page/cataleya-index.html"
         },
         {
             title: "PPKO Academic Posters",
             desc: "Posters",
             img: "../Image/Project8/1.png",
-            link: "../Pko-Page/index.html"
+            link: "../Pko-Page/pkoposters-index.html"
         },
         {
             title: "Personal Explorations",
             desc: "Posters, Artworks",
             img: "../Image/Project9/Posters.png",
-            link: "../Posters-Page/index.html"
+            link: "../Posters-Page/posters-index.html"
         }
     ];
 

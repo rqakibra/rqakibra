@@ -11,16 +11,6 @@
       "source": "/index",
       "destination": "/",
       "permanent": true
-    },
-    {
-      "source": "/:folder(.*-Page)/:file(.*-index)",
-      "destination": "/:folder",
-      "permanent": true
-    },
-    {
-      "source": "/:folder(.*-Page)/:file(.*-index.html)",
-      "destination": "/:folder",
-      "permanent": true
     }
   ]
 }
