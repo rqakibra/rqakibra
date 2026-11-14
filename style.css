@@ -1805,7 +1805,7 @@ body.mobile-menu-open {
     /* Portfolio goes 2 columns on tablet */
     .portfolio-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 14px;
+        gap: 18px;
     }
 
     .project-view-badge {
@@ -2046,7 +2046,7 @@ body.mobile-menu-open {
     /* Portfolio: 2 CARDS PER ROW AS REQUESTED */
     .portfolio-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
+        gap: 14px;
     }
 
     .project-img-box {
@@ -2277,7 +2277,7 @@ body.mobile-menu-open {
     /* Portfolio continues 2 per row cleanly */
     .portfolio-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 8px;
+        gap: 12px;
     }
 
     .project-title {
